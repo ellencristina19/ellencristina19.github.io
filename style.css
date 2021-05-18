@@ -1,0 +1,78 @@
+body,
+html {
+    background-image: url(airplane-3149285.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between
+}
+
+#container {
+    width: 80vw;
+    height: calc(10vh + 230vh + 50vh);
+    padding: 19vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+}
+
+#container > div {
+    width: 80%;
+    padding: 0vh 0;
+    margin-bottom: 4vh;
+    text-align: ;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255);
+    background-color: blanchedalmond;
+}
+
+/*ajustes finos*/
+p {
+    color: black;
+    font-size: 24px;
+    font-style:italic;
+
+}
+
+h1 {
+    color: #562706;
+    font-style: normal;
+    text-align: center;
+    font-size: 27spx;
+
+
+}
+h2,
+h3,
+h4 {
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+    text-align: left;
+}
+li {
+    font-style: normal;
+    color: antiquewhite;
+    font-size: 21px;
+    text-align: justify;
+}
+ul {
+    font-style:italic;
+    color: black;
+    font-size: 22px;
+    text-align: justify;
+}
+strong {
+    color:#FF8C00;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: overline;
+}
